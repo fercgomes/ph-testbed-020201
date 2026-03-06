@@ -8,7 +8,7 @@ export const POSTHOG_INGEST_HOST = "/ph";
 
 export const posthogConfig: Partial<PostHogConfig> = {
   api_host: POSTHOG_INGEST_HOST,
-  ui_host: POSTHOG_HOST,
+  // ui_host: POSTHOG_HOST,
   capture_pageview: "history_change",
   capture_pageleave: true,
   cross_subdomain_cookie: false,
