@@ -3,7 +3,7 @@
 set -euo pipefail
 
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-APP_DIR="$SCRIPT_DIR/../app"
+APP_DIR="$SCRIPT_DIR/.."
 ENV_FILE="$APP_DIR/.env.local"
 
 echo "==> PostHog Testbed — Sync env vars to Vercel"
