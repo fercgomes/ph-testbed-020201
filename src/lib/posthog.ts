@@ -1,10 +1,10 @@
 import type { PostHogConfig } from "posthog-js";
 
 export const POSTHOG_KEY = process.env.NEXT_PUBLIC_POSTHOG_KEY ?? "";
-export const POSTHOG_HOST = process.env.NEXT_PUBLIC_POSTHOG_HOST ?? "https://us.i.posthog.com";
+export const POSTHOG_HOST = "https://us.i.posthog.com";
 
 // Use the Next.js reverse proxy so events don't get blocked by ad-blockers
-export const POSTHOG_INGEST_HOST = "/ingest";
+export const POSTHOG_INGEST_HOST = "/ph";
 
 export const posthogConfig: Partial<PostHogConfig> = {
   api_host: POSTHOG_INGEST_HOST,
