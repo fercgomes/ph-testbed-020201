@@ -1,6 +1,6 @@
 import type { PostHogConfig } from "posthog-js";
 
-export const POSTHOG_KEY = process.env.NEXT_PUBLIC_POSTHOG_KEY ?? "";
+export const POSTHOG_KEY = "phc_fXJUqIbeXMzmJmX3PYqrIn0gyfWPgnyESkGfp2ZqTWv"
 export const POSTHOG_HOST = "https://us.i.posthog.com";
 
 // Use the Next.js reverse proxy so events don't get blocked by ad-blockers
